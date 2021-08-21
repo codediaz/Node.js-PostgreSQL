@@ -10,4 +10,4 @@ app.use(require('./routes/index'))
 
 port = 4000
 app.listen(port)
-console.log('El servidor está en el puerto ' + port)
+console.log('El servidor está en el puerto ' + 'http://localhost:'+port)
